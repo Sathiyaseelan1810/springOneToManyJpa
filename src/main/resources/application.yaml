@@ -1,0 +1,30 @@
+# Application Name
+spring:
+  application:
+    name: springjpaonetomany
+  logging:
+    level:
+      org.hibernate.SQL: DEBUG
+      org.hibernate.type: TRACE
+
+  security:
+    user:
+      name: Sathiya
+      password: Seelan@123
+
+  # db connection details
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa_validations?createDatabaseIfNotExist=true
+    username: root
+    password: Sathiya@1987
+
+  # it will show the sql as visible in the port
+  # Everytime the table will create when the application starts..
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+
+
+
+

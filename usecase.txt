@@ -1,0 +1,5 @@
+ **** ONE TO MANY MAPPING ****
+
+
+ User -> Products
+ one user can buy multiple products
